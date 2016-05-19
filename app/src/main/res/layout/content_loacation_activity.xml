@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="kdas.i_nterface.joat2.loacation_activity"
+    tools:showIn="@layout/activity_loacation_activity">
+
+
+    <AutoCompleteTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text=""
+        android:id="@+id/autoCompleteTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_next"
+        app:fabSize="normal"
+        android:src="@drawable/done"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="56dp" />
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/ser1"
+        android:clickable="true"
+        app:cardUseCompatPadding="true"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="7dp"
+        android:onClick="clickfunc"
+        android:layout_alignTop="@+id/autoCompleteTextView"
+        android:foreground="?android:selectableItemBackground"
+        android:focusable="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Carpenter"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="30dp"
+            android:id="@+id/textView5" />
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/ser2"
+        android:clickable="true"
+        app:cardUseCompatPadding="true"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="7dp"
+        android:onClick="clickfunc"
+        android:layout_below="@+id/ser1"
+        android:foreground="?android:selectableItemBackground"
+        android:focusable="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Plumber"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="30dp"
+            android:id="@+id/textView6" />
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/ser3"
+        android:clickable="true"
+        app:cardUseCompatPadding="true"
+        app:cardCornerRadius="5dp"
+        android:onClick="clickfunc"
+        app:cardElevation="7dp"
+        android:layout_below="@+id/ser2"
+        android:foreground="?android:selectableItemBackground"
+        android:focusable="true"
+        android:layout_alignParentStart="true">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mechanic"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/textView7" />
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

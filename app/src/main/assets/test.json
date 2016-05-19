@@ -1,0 +1,83 @@
+{
+  "location" : [
+
+    {
+      "beltola" : [
+        {
+          "Carpenter" : [
+
+            {
+              "Name":"Haren Kalita",
+              "Contact":"8876351211",
+              "Exp":"12 years",
+              "av" : "0"
+            },
+
+            {
+              "Name":"Haren Kalita",
+              "Contact":"8876351211",
+              "Exp":"12 years",
+              "av" : "1"
+            }
+          ],
+
+          "plumber" : [
+
+            {
+              "Name":"Haren Kalita",
+              "Contact":"8876351211",
+              "Exp":"12 years",
+              "av" : "0"
+            },
+
+            {
+              "Name":"Karen Kalita",
+              "Contact":"8876351211",
+              "Exp":"12 years",
+              "av" : "1"
+            }
+          ]
+        }
+      ],
+
+      "chandmari" : [
+        {
+          "plumber" : [
+
+            {
+              "Name":"Haren Kalita",
+              "Contact":"8876351211",
+              "Exp":"12 years",
+              "av" : "1"
+            },
+
+            {
+              "Name":"Haren Kalita",
+              "Contact":"8876351211",
+              "Exp":"12 years",
+              "av" : "1"
+            }
+          ],
+
+          "mechanic" : [
+
+            {
+              "Name":"Haren Kalita",
+              "Contact":"8876351211",
+              "Exp":"12 years",
+              "av" : "1"
+            },
+
+            {
+              "Name":"Haren Kalita",
+              "Contact":"8876351211",
+              "Exp":"12 years",
+              "av" : "1"
+            }
+          ]
+        }
+      ]
+    }
+
+  ]
+}
